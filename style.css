@@ -169,6 +169,7 @@ h3 {
     text-transform: capitalize;
     margin-bottom: 20px;
     border-bottom: 1px solid #0073e6;
+    text-align: center;
 }
 .experience h5 {
     color: white;
@@ -176,6 +177,7 @@ h3 {
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
+    text-align: center;
 }
 .experience p {
     color: white;
@@ -208,6 +210,14 @@ h3 {
     padding-bottom: 10px;
     color: white;
 }
+.skill-text h2 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0073e6;
+    text-align: center;
+}
 .skill-bar p {
     text-align: left;
 }
@@ -229,7 +239,35 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.Resume {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.resume-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0073e6;
+    text-align: center;
+}
+.resume-text h3 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.resume-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
 .Contact {
     flex: 0 1 calc(33.33% - 10px); 
     margin-bottom: 20px;
